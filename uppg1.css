@@ -1,8 +1,34 @@
-p, h2{
-    color:white;
+body{
+  background-color:teal ;
 }
 
-h1{
+h1, h2{
     font-family:Arial;
     font-size:22px;
+    color:white;
 }   
+
+p{
+   border: 3px solid gray;
+   font-family: MS Sans Sherif;
+   font-size: 16px;
+   color: white;
+}
+
+p1, p2{
+    color: white;
+    font-family: MS Sans Sherif;
+}
+
+p1{
+    color: white;
+    background: darkblue;
+}
+
+p2{
+    text-align: right;
+}
+
+a{
+    text-decoration: none; !important
+}
