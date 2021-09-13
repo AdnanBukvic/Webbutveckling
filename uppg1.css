@@ -8,6 +8,15 @@ h1, h2{
     color:white;
 }   
 
+p{
+    color: white;
+    font-family: MS Sans Sherif;
+}
+
+a{
+    text-decoration: none;
+}
+
 .ommig{
    border: 3px solid gray;
    font-family: MS Sans Sherif;
@@ -15,21 +24,12 @@ h1, h2{
    color: white;
 }
 
-p{
-    color: white;
-    font-family: MS Sans Sherif;
-}
-
 .program{
-    color: teal;
+    color: green;
     background: darkblue;
     text-align: center;
 }
 
 .tankar{
     text-align: right;
-}
-
-a{
-    text-decoration: none;
 }
