@@ -8,27 +8,28 @@ h1, h2{
     color:white;
 }   
 
-p{
+.ommig{
    border: 3px solid gray;
    font-family: MS Sans Sherif;
    font-size: 16px;
    color: white;
 }
 
-p1, p2{
+p{
     color: white;
     font-family: MS Sans Sherif;
 }
 
-p1{
-    color: white;
+.program{
+    color: teal;
     background: darkblue;
+    text-align: center;
 }
 
-p2{
+.tankar{
     text-align: right;
 }
 
 a{
-    text-decoration: none; !important
+    text-decoration: none;
 }
