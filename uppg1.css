@@ -1,5 +1,24 @@
 body{
   background-color:teal ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header header"
+  "main aside";
+}
+
+header{
+    grid-area: header;
+    background-color: darkblue
+}
+
+main{
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
 }
 
 h1, h2{
@@ -18,10 +37,11 @@ a{
 }
 
 .ommig{
-   border: 3px solid gray;
+   border: 3px solid black;
    font-family: MS Sans Sherif;
    font-size: 16px;
-   color: white;
+   color: black;
+   background-color:darkgray;
 }
 
 .program{
