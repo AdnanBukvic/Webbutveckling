@@ -1,3 +1,8 @@
+*{
+    font-family: Arial;
+} 
+/*Här skriver jag vilket typsnitt hela sidan ska använda. "*" betyder att det gäller överallt.*/
+
 body{
     background-color: rgb(230, 230, 230);
     display: grid;
@@ -8,14 +13,27 @@ body{
     "main aside"
     "footer footer";
 }
+/*I body bestämmer jag vad som ska hända med sjävla sidan. Här har jag valt en spesifik bakgrundsfärg, aktiverat en grid och bestämmt var mina giddar ska vara på sidan.*/
 
-th {
+.active, .galleri{
+    color: white;
+    text-decoration: none;
+}
+
+table {
     border: 2px solid black;
 }
 
-h1, h2, p{
-    font-family: Arial;
+tr:nth-child(odd) {
+    background-color: lightblue;
+    color: black
 }
+
+tr:nth-child(even), th {
+    background-color: lightskyblue;
+    color: black
+}
+
 
 header{
     grid-area: header;
@@ -23,12 +41,8 @@ header{
     background-color: black;
 }
 
-aside{
-    grid-area: aside
-}
-
-.aside{
-    font-size: 16px;
+aside, .aside{
+    grid-area: aside;
     text-align: right;
 }
 
@@ -46,8 +60,4 @@ footer{
     border: 3px solid black;
     background-color: black;
     color: white;
-}
-
-table{
-    font-family: Arial;
 }
