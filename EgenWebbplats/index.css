@@ -1,0 +1,88 @@
+*{
+    font-family: 'Bodoni Moda', serif;
+}
+ 
+/*Här skriver jag vilket typsnitt hela sidan ska använda. "*" betyder att det gäller överallt.*/
+
+body{
+    background-color: rgb(244, 214, 180);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header"
+    "section main aside"
+    "footer footer footer";
+}
+/*I body bestämmer jag vad som ska hända med sjävla sidan. Här har jag valt en spesifik bakgrundsfärg, aktiverat en grid och bestämmt var mina giddar ska vara på sidan.*/
+
+.active, .galleri, .hem{
+    color: black;
+    font-size: large;
+    border: 4px solid rgb(189, 125, 98);
+}
+
+/*Här ändrar jag på min sidnavigerare. Här har jag valt att ändra färgen till svart, ändra storleken till stor och lagt till en broder som är 4px stor.*/
+
+
+
+table {
+    border: 2px solid rgb(189, 125, 98);
+}
+
+/*Här lägger jag till en border på min tabell som är 2px stor och har en spesik med RGB färg.*/
+
+tr:nth-child(odd) {
+    background-color: rgb(216, 177, 134);
+    color: black;
+}
+
+
+tr:nth-child(even), th {
+    background-color: rgb(189, 125, 98);
+    color: black;
+}
+
+/* Här gör jag en såkallad Zebra-striping. Varje jämn rad kommer ha färgen som börjar på 189, och varje udda rad kommer ha frärgen som börjar på 216. Alla kommer ha en svarrt textfärg.*/
+
+
+header{
+    grid-area: header;
+    border: 3px solid rgb(189, 125, 98);
+    background-color: rgb(189, 125, 98);
+}
+
+/*Här specifierar jag var header ska vara i grid area och sägger till en broder som är 3px och ger den samma färg som bakgrunden.*/
+
+section{
+    grid-area: section
+}
+
+/*Här specifierar jag var section ska vara i grid area*/
+
+aside, .aside{
+    grid-area: aside;
+    text-align: right;
+}
+/*Här specifierar jag var aside ska vara i grid area och tvingar alla text i aside och kalssen aside att vara på höger sida*/
+
+main{
+    grid-area: main
+}
+/*Här specifierar jag var main ska vara i grid area*/
+
+footer{
+    grid-area: footer;
+    border: 3px solid rgb(189, 125, 98);
+    background-color: rgb(189, 125, 98);
+}
+
+/*Här specifierar jag var footer ska vara i grid area och ger den en border som är samma färg som dess bakgrund*/
+
+.footer, .header{
+    border: 3px solid rgb(189, 125, 98);
+    background-color: rgb(189, 125, 98);
+    color: black;
+}
+
+/*Här lägger jag till en border i klassen footer och klassen header. JAg ger den samma färg som bakgrunden ocg ändrar textfägren till svart.*/
