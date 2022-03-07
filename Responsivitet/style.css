@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(244, 214, 180);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header"
+    "section main aside"
+    "footer footer footer";
+}
