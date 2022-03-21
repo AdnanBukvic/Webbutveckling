@@ -6,19 +6,19 @@ body{
     margin: 0%;
     padding: 0%;
 }
-.red{
+.tomato{
     background-color:tomato;
 }
 
-.blue{
+.limegreen{
     background-color:limegreen;
 }
 
-.green{
+.aqua{
     background-color:aqua;
 }
 
-.yellow{
+.brownbutnotbrown{
     background-color:brown;
 }
 

@@ -1,0 +1,19 @@
+#rect{
+    position: relative;
+    top: 0;
+    margin: auto;
+    width: 50vw;
+    height: 25vw;
+    background-color: tomato;
+}
+
+#circle{
+    position: absolute;
+    top: 0;
+    left: 12.5vw;
+    right: 12.5vw;
+    border-radius: 50%;
+    background-color: brown;
+    height: 25vw;
+    width: 25vw;
+}
