@@ -1,0 +1,27 @@
+body{
+    background-color: 100vb;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0%;
+    padding: 0%;
+}
+.red{
+    background-color:tomato;
+}
+
+.blue{
+    background-color:limegreen;
+}
+
+.green{
+    background-color:aqua;
+}
+
+.yellow{
+    background-color:brown;
+}
+
+section p{
+    display: none;
+}
