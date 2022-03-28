@@ -1,13 +1,29 @@
-<!DOCTYPE html>  <!--Här bestämmer jag vilket typ av dokument det här är-->
+<!DOCTYPE html>
+<!--Här bestämmer jag vilket typ av dokument det här är-->
 
-<html lang="sv"> <!--Här bestämmer jag språk på sidan för textläsar hjälpmedel.-->
+<html lang="sv">
+<!--Här bestämmer jag språk på sidan för textläsar hjälpmedel.-->
 
-<head> 
+<head>
     <meta charset="utf-8">
-    <title>Idrott</title> <!--Här bestämmer jag texten som ska stå på flikraden på webbläsaren.-->
-    <link href="index.css" rel="stylesheet"> <!--Här länkar jag HTML dokumetet med min CSS. Alla sidor använder samma css.-->
+    <title>Idrott</title>
+    <!--Här bestämmer jag texten som ska stå på flikraden på webbläsaren.-->
+    <link href="index.css" rel="stylesheet">
+    <!--Här länkar jag HTML dokumetet med min CSS. Alla sidor använder samma css.-->
 </head>
 
 <body>
-    
+    <header>
+        <!--Här bestämmer jag vad som ska finnas i griden "header", asså sidhuvudet.-->
+        <p class="header"><b>Adnan Bukvic</b></p>
+        <nav>
+            <a class="active" href="index.html"><b>Hem</b></a>
+            <a class="fotboll" href="indexbilder.html">Fotboll</a>
+            <a class="tennis" href="indexbilder.html">Tennis</a>
+            <a class="golf" href="indexbilder.html">Golf</a>
+            <a class="varför?" href="indexbilder.html">Varför?</a>
+        </nav>
+        <!--Över här skriver jag den globala menyn. Asså där man kan välja sida och liknande. Likt som när man länkar css länkar man HTML filen.-->
+    </header>
+    <button class="btn">Meny</button>
 </body>
