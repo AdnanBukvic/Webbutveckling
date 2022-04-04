@@ -19,7 +19,7 @@ body{
     grid-template-columns: 10% 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "menu b c"
+    "menu header header"
     "section main aside"
     "footer footer footer";
 }
