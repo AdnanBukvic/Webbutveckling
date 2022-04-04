@@ -2,16 +2,53 @@
   font-family: arial;
 }
 
+body{
+    background-color: rgb(248, 248, 248);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header"
+    "section main aside"
+    "footer footer footer";
+}
+
+#fotboll{
+    background-color: rgb(248, 248, 248);
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "menu b c"
+    "section main aside"
+    "footer footer footer";
+}
+
+menu{
+  grid-area: menu;
+}
+
+b{
+  grid-area: b;
+}
+
+header{
+    grid-area: header;
+    border: 3px solid rgb(128, 128, 128);
+    background-color : rgb(209, 209, 209);
+}
+
 .btn {
   background-color: gray;
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 8px 12px;
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
   opacity: 0.6;
   transition: 0.2s;
+  font-size: large;
 }
 
 .btn:hover {

@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Idrott</title>
+    <title>Hem - Idrottsklubben</title>
     <!--Här bestämmer jag texten som ska stå på flikraden på webbläsaren.-->
     <link href="index.css" rel="stylesheet">
     <!--Här länkar jag HTML dokumetet med min CSS. Alla sidor använder samma css.-->
@@ -17,16 +17,24 @@
         <!--Här bestämmer jag vad som ska finnas i griden "header", asså sidhuvudet.-->
         <p class="header"><b>Idrottsklubben</b></p>
         <nav>
-            <a class="active" href="index.html"><b>Hem</b></a>
-            <a class="fotboll" href="indexfotboll.html">Fotboll</a>
-            <a class="tennis" href="indextennis.html">Tennis</a>
-            <a class="golf" href="indexgolf.html">Golf</a>
-            <a class="varför?" href="indexvarfor.html">Varför?</a>
-            <button class="btn">Meny</button>
+            <div id="meny">
+                <a class="active" href="index.html"><b>Hem</b></a>
+                <a class="fotboll" href="indexfotboll.html">Fotboll</a>
+                <a class="tennis" href="indextennis.html">Tennis</a>
+                <a class="golf" href="indexgolf.html">Golf</a>
+                <a class="varför?" href="indexvarfor.html">Varför?</a>
+            </div>
         </nav>
         <!--Över här skriver jag den globala menyn. Asså där man kan välja sida och liknande. Likt som när man länkar css länkar man HTML filen.-->
     </header>
-    <h1>Välkommen till Idrottsklubben!</h1>
-    <p>Här kommer vi gå igenom olika sporter och hur man utför dem korrekt.</p>
+    <section>
+        <h1>Välkommen till Idrottsklubben!</h1>
+        <p>Här kommer vi gå igenom olika sporter och hur man utför dem korrekt.</p>
+    </section>
 
+
+
+
+    <scrpit src="https://code.jquery.com/jquery-3.1.0.min.js"></scrpit>
+    <script src="toggle-menu.js"></script>
 </body>
