@@ -24,6 +24,18 @@ body{
     "footer footer footer";
 }
 
+#varfor{
+  background-color: rgb(248, 248, 248);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header header header"
+  "nav nav nav"
+  "section main aside"
+  "footer footer footer";
+}
+
 .img{
     margin-top: 10px;
     margin-left: 10em;
@@ -47,6 +59,14 @@ header{
     background-color : rgb(209, 209, 209);
 }
 
+#nav{
+  grid-area: nav;
+  border: 3px solid rgb(128, 128, 128);
+  background-color : rgb(209, 209, 209);
+}
+
+
+
 .btn {
   background-color: gray;
   border: none;
@@ -66,4 +86,8 @@ header{
 
 .btn:focus{
     background-color:black;
+}
+
+.header{
+  margin-left: 40px;
 }

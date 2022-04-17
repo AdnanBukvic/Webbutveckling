@@ -1,11 +1,8 @@
 function visaMeny() {
-    var meny = document.getElementById("meny");
     var header = document.getElementById("header");
-    if (meny.style.display === "none") {
-        meny.style.display = "block";
-        header.style.color = "white";
-
+    if (header.style.visibility === "hidden") {
+        header.style.visibility = "visible";
     } else {
-        meny.style.display = "none";
+        header.style.visibility = "hidden";
     }
 }

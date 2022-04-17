@@ -6,24 +6,21 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Fotboll - Idrottsklubben</title>
+    <title>Varför? - Idrottsklubben</title>
     <!--Här bestämmer jag texten som ska stå på flikraden på webbläsaren.-->
     <link href="index.css" rel="stylesheet">
     <!--Här länkar jag HTML dokumetet med min CSS. Alla sidor använder samma css.-->
 </head>
 
-<body id="lasvy">
-    <menu>
-        <button onclick="visaMeny()" class="btn">=</button>
-    </menu>
-    <header id="header">
+<body id="varfor">
+    <header>
         <!--Här bestämmer jag vad som ska finnas i griden "header", asså sidhuvudet.-->
         <p class="header"><b>Idrottsklubben</b></p>
         <nav>
-            <list>
+            <list id="meny">
                 <ul>
-                    <a class="hem" href="index.html"><b>Hem</b></a>
-                    <a class="active" href="indexfotboll.html">Fotboll</a>
+                    <a class="active" href="index.html"><b>Hem</b></a>
+                    <a class="fotboll" href="indexfotboll.html">Fotboll</a>
                     <a class="tennis" href="indextennis.html">Tennis</a>
                     <a class="golf" href="indexgolf.html">Golf</a>
                     <a class="varför?" href="indexvarfor.html">Varför?</a>
@@ -32,16 +29,20 @@
         </nav>
         <!--Över här skriver jag den globala menyn. Asså där man kan välja sida och liknande. Likt som när man länkar css länkar man HTML filen.-->
     </header>
+    <nav id="nav">
+        <list id="navlocal">
+            <ul>
+                <a class="Anledning" href="indexfotboll.html">Anledning</a>
+                <a class="Hälsa" href="indextennis.html">Hälsa</a>
+                <a class="Humör" href="indexgolf.html">Humör</a>
+                <a class="Var??" href="indexvarfor.html">Var?</a>
+            </ul>
+        </list>
+    </nav>
     <section>
+        <h1>Varför ska man träna?</h1>
+        <p>Place holder.</p>
     </section>
-    <main>
-        <h1>Fotboll</h1>
-        <p>Fotboll är i själva verket en ganska enkel sport, men delar av det är komplexa.</p>
-    </main>
-    <aside>
-        <img class=img src="https://www.ljudochbild.se/wp-content/uploads/iStock-637298374_34486-scaled.jpg" alt="Bild på Teknikum">
-    </aside>
- 
 
 
 
