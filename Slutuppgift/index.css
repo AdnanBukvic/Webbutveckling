@@ -114,6 +114,10 @@ a:hover {text-decoration: underline; }
 a:active {text-decoration: none; }
 
 @media only screen and (max-width: 600px) {
+  *{
+    text-align: center;
+  }
+
   body{
     background-color: rgb(248, 248, 248);
     display: grid;
@@ -123,9 +127,9 @@ a:active {text-decoration: none; }
     "header"
     "section"
     "footer";
-}
+  }
 
-#lasvy{
+  #lasvy{
     background-color: rgb(248, 248, 248);
     display: grid;
     grid-template-columns: 1fr;
@@ -137,28 +141,25 @@ a:active {text-decoration: none; }
     "section"
     "aside"
     "footer";
-}
+  }
 
-#varfor{
-  background-color: rgb(248, 248, 248);
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: 
-  "header"
-  "nav"
-  "section"
-  "footer";
-}
+  #varfor{
+    background-color: rgb(248, 248, 248);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "section"
+    "footer";
+  }
 
-*{
-  text-align: center;
-}
-.img{
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 50%; 
-  height: 50%; 
-}
+  .img{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 50%; 
+    height: 50%; 
+  }
 }
