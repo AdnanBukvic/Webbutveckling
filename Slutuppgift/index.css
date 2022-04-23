@@ -16,7 +16,7 @@ body{
 #lasvy{
     background-color: rgb(248, 248, 248);
     display: grid;
-    grid-template-columns: 10% 1fr 1fr;
+    grid-template-columns: 20% 40% 40%;
     grid-template-rows: auto;
     grid-template-areas: 
     "menu header header"
@@ -49,10 +49,6 @@ menu{
   grid-area: menu;
 }
 
-b{
-  grid-area: b;
-}
-
 header{
     grid-area: header;
     border: 3px solid rgb(206, 206, 206);
@@ -73,8 +69,6 @@ footer{
   background-color : rgb(223, 223, 223);
 }
 
-
-
 .btn {
   background-color: gray;
   border: none;
@@ -82,18 +76,10 @@ footer{
   padding: 8px 12px;
   text-align: center;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 18px 4px;
   opacity: 0.6;
   transition: 0.2s;
   font-size: large;
-}
-
-.btn:hover {
-    opacity: 1;
-}
-
-.btn:focus{
-    background-color:black;
 }
 
 .header{
@@ -108,10 +94,29 @@ footer{
   color: blue;
 }
 
-a:link {text-decoration: none;}
-a:visited {text-decoration: none; }
-a:hover {text-decoration: underline; }
-a:active {text-decoration: none; }
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none; 
+}
+
+.btn:focus{
+  background-color:black;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+a:hover {
+  text-decoration: underline; 
+}
+
+a:active {
+  text-decoration: none; 
+}
 
 @media only screen and (max-width: 600px) {
   *{
