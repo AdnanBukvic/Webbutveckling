@@ -13,22 +13,30 @@
 </head>
 
 <body id="lasvy">
-    <menu>
+    <div id="button">
         <button onclick="visaMeny()" class="btn">MENY</button>
-    </menu>
+    </div>
     <header id="header">
         <!--Här bestämmer jag vad som ska finnas i griden "header", asså sidhuvudet.-->
         <p class="header"><b>Idrottsklubben</b></p>
         <nav>
-            <list">
-                <ul>
+            <ul class="navigation">
+                <li class=lista>
                     <a class="hem" href="index.html">HEM</a>
+                </li>
+                <li class=lista>
                     <a class="fotboll" href="indexfotboll.html">FOTBOLL</a>
+                </li>
+                <li class=lista>
                     <a class="active" href="indextennis.html"><b>TENNIS</b></a>
+                </li>
+                <li class=lista>
                     <a class="golf" href="indexgolf.html">GOLF</a>
+                </li>
+                <li class=lista>
                     <a class="varför" href="indexvarfor.html">VARFÖR?</a>
-                </ul>
-            </list>
+                </li>
+            </ul>
         </nav>
         <!--Över här skriver jag den globala menyn. Asså där man kan välja sida och liknande. Likt som när man länkar css länkar man HTML filen.-->
     </header>
@@ -39,12 +47,9 @@
         <p>test text - place holder</p>
     </main>
     <aside>
-        <img class=img src="https://www.ljudochbild.se/wp-content/uploads/iStock-637298374_34486-scaled.jpg" alt="Bild på Teknikum">
+        <img class=img src="https://www.ljudochbild.se/wp-content/uploads/iStock-637298374_34486-scaled.jpg"
+            alt="palcehodler">
     </aside>
- 
 
-
-
-    <scrpit src="https://code.jquery.com/jquery-3.1.0.min.js"></scrpit>
     <script src="toggle-menu.js"></script>
 </body>

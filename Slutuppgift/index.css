@@ -45,9 +45,20 @@ body{
   float: right;
 }
 
+.navigation{
+  list-style-type: none;
+}
 
-menu{
+.lista{
+  display: inline-block;
+}
+
+#button{
   grid-area: menu;
+  display: flex;
+  justify-content: center;
+  align-items: center
+  
 }
 
 header{
