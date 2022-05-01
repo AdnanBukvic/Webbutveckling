@@ -31,7 +31,7 @@ body{
 #varfor{
   background-color: rgb(248, 248, 248);
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 40% 40% 10%;
   grid-template-rows: auto;
   grid-template-areas: 
   "header header header"
@@ -127,6 +127,22 @@ footer{
   font-size: large;
   border-radius: 4px;
 }
+
+tr:nth-child(odd) {
+  background-color: rgba(119, 119, 119, 0.952);
+  color: black;
+}
+
+
+tr:nth-child(even), th {
+  background-color: rgb(199, 199, 199);
+  color: black;
+}
+
+th {
+  border: 2px solid black;
+}
+
 
 .header{
   margin-left: 40px;
