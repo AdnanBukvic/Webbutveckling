@@ -2,13 +2,19 @@ html {
   scroll-behavior: smooth;
 }
 
+/*Här över i html bestämmer jag hur mitt scroll behavour är. När den är sät till smmoth gör det att sidan scrollar fint när man snabb-scrollar*/
+
 *{
   font-family: arial;
 }
 
+/*I "*" användsa allt. Här bestämmer jag då att all mion text ska använda font'en arial*/
+
 header p{
   font-size: 120%;
 }
+
+/*I denna avkomlig lägger jag texten från headern och gör storleken till 120% så att det är enklare att använda på en touch screen*/
 
 body{
     background-color: rgb(248, 248, 248);
@@ -44,6 +50,8 @@ body{
   "footer footer footer";
 }
 
+/*Över här bestämmer jag var vad ska finnas i min grid*/
+
 .img{
   padding: 20px;
   padding-right: initial;
@@ -62,6 +70,7 @@ body{
   float: left;
 }
 
+/*Över här bestämmer jag hur mina vilder ska se ut*/
 #tennistext{
   text-align: right;
   padding-right: 100px;
@@ -72,9 +81,8 @@ ul.navigation > li {
   list-style-type: none;
   border-collapse: separate;
   border-spacing: 15px;
-
 }
-
+/*Här i denna child selectorn ändrar jag på mina listor utan att jag skriver flera rader*/
 
 .lista{
   display: inline-block;
@@ -116,12 +124,18 @@ footer{
   border-radius: 12px;
 }
 
+/*Här över bestämmer jag hur min nav, footer, haeder och annat ska se ut. Asså vilka färger de ska ha och liknande*/
+
+
 #ljud{
   padding: 20px;
   padding-right: initial;
   margin-right: 10%;
   float: right;
 }
+
+/*Här bestämmer jag min ljudfils position*/
+
 
 .btn {
   background-color: gray;
@@ -137,6 +151,9 @@ footer{
   border-radius: 4px;
 }
 
+/*Här anpassar jag min knapp för menyn som till exempel att ha runda hörn med border radius*/
+
+
 tr:nth-child(odd) {
   background-color: rgba(119, 119, 119, 0.952);
   color: black;
@@ -148,10 +165,12 @@ tr:nth-child(even), th {
   color: black;
 }
 
+
 th {
   border: 2px solid #0000;
 }
 
+/*Här gör jag en så kallad zebra striping*/
 
 .header{
   margin-left: 40px;
@@ -160,6 +179,7 @@ th {
 .tennis, .fotboll, .hem, .varför, .golf{
   color:#0000
 }
+/*Här bestämmer jag hur min text i headern ska se ut*/
 
 .active{
   color: blue;
@@ -185,7 +205,9 @@ a:hover {
 a:active {
   text-decoration: none; 
 }
+/*Här ändrar jag hur mina länkar ska se ut i samband med LoVe Focus HAte*/
 
+/*Här under har jag en så kallad media query som låter mig andpassa sidan för telefoner eller små webbläsar fönster med en spalt istället för en 2 och 3 spalt*/
 @media only screen and (max-width: 828px) {
   *{
     text-align: center;
