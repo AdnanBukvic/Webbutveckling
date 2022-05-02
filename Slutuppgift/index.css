@@ -6,6 +6,10 @@ html {
   font-family: arial;
 }
 
+header p{
+  font-size: 120%;
+}
+
 body{
     background-color: rgb(248, 248, 248);
     display: grid;
@@ -63,9 +67,14 @@ body{
   padding-right: 100px;
 }
 
-.navigation{
+ul.navigation > li {
+  margin: 2em;
   list-style-type: none;
+  border-collapse: separate;
+  border-spacing: 15px;
+
 }
+
 
 .lista{
   display: inline-block;
@@ -140,7 +149,7 @@ tr:nth-child(even), th {
 }
 
 th {
-  border: 2px solid black;
+  border: 2px solid #0000;
 }
 
 
@@ -149,7 +158,7 @@ th {
 }
 
 .tennis, .fotboll, .hem, .varför, .golf{
-  color:black
+  color:#0000
 }
 
 .active{
@@ -159,11 +168,6 @@ th {
 a:link {
   text-decoration: none;
   color:gray;
-}
-
-a:visited {
-  text-decoration: none; 
-  color:black;
 }
 
 .btn:focus{

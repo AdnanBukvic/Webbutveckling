@@ -15,7 +15,7 @@
 <body id="varfor">
     <header>
         <!--Här bestämmer jag vad som ska finnas i griden "header", asså sidhuvudet.-->
-        <p class="header"><b>Idrottsklubben</b></p>
+        <p class="header">Idrottsklubben</p>
         <nav>
             <ul class="navigation">
                 <li class=lista>
@@ -31,14 +31,15 @@
                     <a class="golf" href="indexgolf.html">GOLF</a>
                 </li>
                 <li class=lista>
-                    <a class="active" href="indexvarfor.html"><b>FAQ</b></a>
+                    <a class="active" href="indexvarfor.html">FAQ</a>
                 </li>
             </ul>
         </nav>
         <!--Över här skriver jag den globala menyn. Asså där man kan välja sida och liknande. Likt som när man länkar css länkar man HTML filen.-->
     </header>
     <nav id="nav">
-        <ul id="navigation"><!-- NAVBAR LINKS, TRYCKER MAN PÅ EN LÄNK SÅ KOMMER MAN DIREKT TILL RESPEKTIVE SEKTION AV SIDAN MED HÄLP AV # -->
+        <ul id="navigation">
+            <!-- NAVBAR LINKS, TRYCKER MAN PÅ EN LÄNK SÅ KOMMER MAN DIREKT TILL RESPEKTIVE SEKTION AV SIDAN MED HÄLP AV # -->
             <li class=lista>
                 <a href="#varfor-ska-man">Varför ska man träna?</a>
             </li>
@@ -56,45 +57,65 @@
     <section>
         <h1>Här är våra mest vanliga frågor som vi får, så du snabbt kan få svar på dina frågor!</h1>
         <article id="varfor-ska-man">
-            <h2>Varför ska man träna?</h1>
-            <p><b>Att träna är vikigt, både för din fysiska hälsa, men även din mentala hälsa.</b></p>
-            <p>När man tränar så skpas ett ämne som heter dopmain i kroppen. Den göra att du bland annat blir glad, men även att du blir mindre rädd. <br> Framförallt när man spelar fotboll så finns det många grupper, som sitt lag. Det leder i sig att man blir glad, och att man preserar bättre. Det skapar så en cirkel som gör att man presterar bättre, håller sig i from och blir glad.</p>
+            <h2>Varför ska man träna?</h2>
+            <p>Att träna är vikigt, både för din fysiska hälsa, men även din mentala hälsa.</p>
+            <p>När man tränar så skpas ett ämne som heter dopmain i kroppen. Den göra att du bland annat blir glad,
+                men även att du blir mindre rädd. <br> Framförallt när man spelar fotboll så finns det många
+                grupper, som sitt lag. Det leder i sig att man blir glad, och att man preserar bättre. Det skapar så
+                en cirkel som gör att man presterar bättre, håller sig i from och blir glad.</p>
             <p>Det låter väl som en fördel, eller?</p>
         </article>
         <br>
         <article id="kan-man">
-            <h3>Kan man träna var som helst?</h1>
-            <p><b>Klart man kan! man behöver inte alltid gå till ett gym!</b></p>
-            <p>Självklart kan det vara enklare att gå till ett gm, men det är det som är underbart med idrott -- det behvöer du inte! Du kan göra allt i din egen takt i din egna miljö! Släng på lite tränning videor på YouTube och kör!</p>
+            <h3>Kan man träna var som helst?</h3>
+            <p>Klart man kan! man behöver inte alltid gå till ett gym!</p>
+            <p>Självklart kan det vara enklare att gå till ett gm, men det är det som är underbart med idrott -- det
+                behvöer du inte! Du kan göra allt i din egen takt i din egna miljö! Släng på lite tränning videor på
+                YouTube och kör!</p>
         </article>
         <br>
         <article id="orkar-inte">
-            <h3>Men jag orkar inte!</h1>
-            <p><b>Att inte orka är helt mänskigt, men ibland måste man göra det man inte vill</b></p>
-            <p>Som sagt på första sidan tyvker vi att det sörsta och svåraste steget är att börja, och vi förstår varför! Människan tycker inte om att man gör många förändingar, speciellt i sin dagliga rutin, men ibalnd måste man bara bita i det sura äpplet och göra det ändå. <br> Om du fortfarande har svårt att bestämmma dig så är du helt välkommen att gå med i vår klubb!</p>
+            <h4>Men jag orkar inte!</h4>
+            <p>Att inte orka är helt mänskigt, men ibland måste man göra det man inte vill</p>
+            <p>Som sagt på första sidan tyvker vi att det sörsta och svåraste steget är att börja, och vi förstår
+                varför! Människan tycker inte om att man gör många förändingar, speciellt i sin dagliga rutin, men
+                ibalnd måste man bara bita i det sura äpplet och göra det ändå. <br> Om du fortfarande har svårt att
+                bestämmma dig så är du helt välkommen att gå med i vår klubb!</p>
         </article>
         <br>
         <article id="ga-med">
-            <h3>Kan man gå med i eran klubb?</h1>
-            <p><b>Klart man kan! Skirv bara in formuläret nedan!</b></p>
-            <p>Det är helt gratis att gå med, och du väljer själv vilka mejl du vill få. Du kan gå ur när du vill!</p>
-            <br>
-            <p>För, mellan och efternamn. <br> ex: Namn Mellannman-Efternamnsson</p>
-            <input type='text' value=''>
-            <p>Meljaddress:</p>
-            <input type='email' value=''>
-            <br> <p>Skicka endast nödväniga melj:</p>
-            <input type='checkbox'>
-            <br>
-            <input type='submit' value='Gå med!'>
+            <h5>Kan man gå med i eran klubb?</h5>
+            <p>Klart man kan! Skirv bara in formuläret nedan!</p>
+            <p>Det är helt gratis att gå med, och du väljer själv vilka mejl du vill få. Du kan gå ur när du vill!
+            </p>
+            <form action="formularok.html" method="get">
+                <label for="fnamn">Förnamn: <input type="text" id="fnamn" name="fnamn" value="Namn"><br><br></label>
+                <label for="enamn">Efternamn: <input type="text" id="enamn" name="enamn"
+                        value="Namnsson"><br><br></label>
+                <label for="email">Meljadress: <input type="email" id="email" name="email"><br><br></label>
+                <label for="password">Lösenord: <input type="password" id="password" name="password"><br></label>
+                <label for="checkbox1">Skicka mig erjudanden per mejl: <input type='checkbox'
+                        id="checkbox1"><br></label>
+                <label for="checkbox2">Jag går med på våra vilkor:<input type='checkbox' id="checkbox2" checked>
+                    <br></label>
+                <label for="radio1">Tillåt att vi skickar uppdterar om sidan till dig:</label>
+                <input type="radio" id="radio1" name="radio1" checked> <br>
+                <label for="radio2">Neka att vi skickar uppdterar om sidan till dig:</label>
+                <input type="radio" id="radio2" name="radio1">
+                <br>
+                <label for="textarea">Skriv ett meddelande om du vill</label> <br>
+                <textarea id="textarea" name="textaera" rows="4" cols="50"> </textarea> <br>
+                <input type="submit" value="Skicka">
+            </form>
         </article>
     </section>
     <aside>
-        <img class=img2 src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F35%2F2020%2F03%2Fhome-workout-1-promo.jpg&q=60"
+        <img class=img2
+            src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F35%2F2020%2F03%2Fhome-workout-1-promo.jpg&q=60"
             alt="En kvinna som tränar med hjälp av sitt husdjur">
     </aside>
     <footer>
         <!--Och här bestämmer jag vad som finns i min footer, asså min sidfot-->
-        <p class="footer"> Den här sidan skapades av <b>Adnan Bukvic EEDAT20</b></p>
+        <p class="footer"> Den här sidan skapades av Adnan Bukvic EEDAT20</p>
     </footer>
 </body>
