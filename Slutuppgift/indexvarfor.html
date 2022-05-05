@@ -40,7 +40,6 @@
     </header>
     <nav id="nav">
         <ul id="navigation">
-            <!-- NAVBAR LINKS, TRYCKER MAN PÅ EN LÄNK SÅ KOMMER MAN DIREKT TILL RESPEKTIVE SEKTION AV SIDAN MED HÄLP AV # -->
             <li class=lista>
                 <a href="#varfor-ska-man">Varför ska man träna?</a>
             </li>
@@ -55,6 +54,7 @@
             </li>
         </ul>
     </nav>
+    <!--Genom att använda article och dess id kan jag göra att att när man klickar på snabb hoppnings texten att sidan scrollas ned automatiskt-->
     <section>
         <h1>Här är våra mest vanliga frågor som vi får, så du snabbt kan få svar på dina frågor!</h1>
         <article id="varfor-ska-man">
@@ -107,13 +107,15 @@
                 <label for="textarea">Skriv ett meddelande om du vill</label> <br>
                 <textarea id="textarea" name="textaera" rows="4" cols="50"> </textarea> <br>
                 <input type="submit" value="Skicka">
+                <!--Med label och input kan jag skriva en text bevid mina knappar, text rutor och annat i mitt formulär. De har alla en id och namn, som jag sdean väljer med for för labeln så att den länkas med rätt grej-->
             </form>
         </article>
     </section>
     <aside>
         <img class=img2
-            src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F35%2F2020%2F03%2Fhome-workout-1-promo.jpg&q=60"
+            src="varfor-index.webp"
             alt="En kvinna som tränar med hjälp av sitt husdjur">
+            <!--Här lägger jag till en bild med en alt som används för både textläsare och om bilden inte kan hittas-->
     </aside>
     <footer>
         <!--Och här bestämmer jag vad som finns i min footer, asså min sidfot-->
