@@ -4,11 +4,11 @@ html {
 
 /*Här över i html bestämmer jag hur mitt scroll behavour är. När den är sät till smmoth gör det att sidan scrollar fint när man snabb-scrollar*/
 
-*{
+body {
   font-family: arial;
 }
 
-/*I "*" användsa allt. Här bestämmer jag då att all mion text ska använda font'en arial*/
+/*I "*" användsa allt. Det använde jag först, men det ska man inte göra. Jag har bytt till body*/
 
 header p{
   font-size: 120%;
