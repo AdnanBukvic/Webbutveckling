@@ -190,6 +190,14 @@ a:link {
   color:gray;
 }
 
+a:hover { 
+  color:rgb(0, 0, 175)
+}
+
+a:active {
+  text-decoration: none; 
+}
+
 .btn:focus{
   background-color:black;
 }
@@ -198,13 +206,6 @@ a:link {
   opacity: 1;
 }
 
-a:hover { 
-  color:rgb(0, 0, 175)
-}
-
-a:active {
-  text-decoration: none; 
-}
 /*Här ändrar jag hur mina länkar ska se ut i samband med LoVe Focus HAte*/
 
 /*Här under har jag en så kallad media query som låter mig andpassa sidan för telefoner eller små webbläsar fönster med en spalt istället för en 2 och 3 spalt*/
