@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/*Här över i html bestämmer jag hur mitt scroll behavour är. När den är sät till smmoth gör det att sidan scrollar fint när man snabb-scrollar*/
+/*Här över i html bestämmer jag hur mitt scroll behavour är. När den är sät till smmoth gör det att sidan scrollar fint när man snabb-scrollar på webbläsare som stöjer det, vilket är alla förutom macOS Safari och.... Internet Explorer självklart*/
 
 body {
   font-family: arial;
@@ -23,8 +23,8 @@ body{
     grid-template-rows: auto;
     grid-template-areas: 
     "header header header"
-    "section main aside"
-    "footer footer footer";
+    "section main aside" 
+    "footer footer footer"; 
 }
 
 #lasvy{
@@ -54,11 +54,10 @@ body{
 
 .img{
   padding: 20px;
-  padding-right: initial;
+  padding-right: initial; 
   margin-right: 10%;
   width: 290px; 
   height: 210px; 
-  float: right;
 }
 
 .img2{
@@ -67,7 +66,6 @@ body{
   margin-left: 10%;
   width: 290px; 
   height: 210px; 
-  float: left;
 }
 
 /*Över här bestämmer jag hur mina vilder ska se ut*/
@@ -85,7 +83,8 @@ ul.navigation > li {
 /*Här i denna child selectorn ändrar jag på mina listor utan att jag skriver flera rader*/
 
 .lista{
-  display: inline-block;
+  display: inline;
+  /*Med display:inline kan jag göra så att menyn kan vara på en rad och därmed respektera sitemapen och wirefreamen istället för att ha ett nytt radbyte för varje objekt i listan*/
   margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
