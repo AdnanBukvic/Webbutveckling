@@ -84,11 +84,12 @@ ul.navigation > li {
 
 .lista{
   display: inline;
-  /*Med display:inline kan jag göra så att menyn kan vara på en rad och därmed respektera sitemapen och wirefreamen istället för att ha ett nytt radbyte för varje objekt i listan*/
   margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/*Med display:inline kan jag göra så att menyn kan vara på en rad och därmed respektera sitemapen och wirefreamen istället för att ha ett nytt radbyte för varje objekt i listan*/
 
 #button{
   grid-area: menu;
