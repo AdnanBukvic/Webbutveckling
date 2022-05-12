@@ -250,6 +250,10 @@ a:active {
     "footer";
   }
 
+  .lista{
+    display: block;
+  }
+
   .img ,.img2{
     padding-top: 10px;
     margin-right: initial;
