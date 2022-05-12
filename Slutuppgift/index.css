@@ -68,6 +68,11 @@ body{
   height: 210px; 
 }
 
+video{
+  width: 320px;
+  height: 240px;
+}
+
 /*Över här bestämmer jag hur mina vilder ska se ut*/
 #tennistext{
   text-align: right;
