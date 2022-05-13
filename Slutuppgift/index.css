@@ -4,12 +4,6 @@ html {
 
 /*Här över i html bestämmer jag hur mitt scroll behavour är. När den är sät till smmoth gör det att sidan scrollar fint när man snabb-scrollar på webbläsare som stöjer det, vilket är alla förutom macOS Safari och.... Internet Explorer självklart*/
 
-body {
-  font-family: arial;
-}
-
-/*I "*" användsa allt. Det använde jag först, men det ska man inte göra. Jag har bytt till body*/
-
 header p{
   font-size: 130%;
 }
@@ -17,6 +11,7 @@ header p{
 /*I denna avkomlig lägger jag texten från headern och gör storleken till 120% så att det är enklare att använda på en touch screen*/
 
 body{
+  font-family: arial;
   background-color: rgb(248, 248, 248);
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -213,13 +208,11 @@ a:active {
 
 /*Här ändrar jag hur mina länkar ska se ut i samband med LoVe Focus HAte*/
 
-/*Här under har jag en så kallad media query som låter mig andpassa sidan för telefoner eller små webbläsar fönster med en spalt istället för en 2 och 3 spalt*/
+/*Här under har jag en så kallad media query som låter mig andpassa sidan för telefoner eller små webbläsarfönster med en spalt istället för en 2 och 3 spalt*/
 @media only screen and (max-width: 828px) {
-  *{
-    text-align: center;
-  }
 
   body{
+    text-align: center;
     background-color: rgb(248, 248, 248);
     display: grid;
     grid-template-columns: 1fr;
@@ -268,8 +261,8 @@ a:active {
     float: initial;
   }
 
-  .tennistext{
-    text-align: initial;
+  #tennistext{
+    text-align: center;
     padding-right: initial;
   }
 }
