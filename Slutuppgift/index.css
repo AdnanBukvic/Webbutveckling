@@ -45,6 +45,17 @@ body{
   "footer footer footer";
 }
 
+.dark{
+  background-color: rgb(57, 57, 57);
+  color: white;
+  border-color: rgb(89, 89, 89);
+}
+
+.darkbutnotasmuch{
+  background-color: rgb(197, 197, 197);
+  color: white;
+}
+
 /*Över här bestämmer jag var vad ska finnas i min grid*/
 
 img{
@@ -116,7 +127,7 @@ footer{
   text-align: center;
 }
 
-#nav{
+nav{
   grid-area: nav;
   border: 3px solid rgb(206, 206, 206);
   background-color : rgb(228, 228, 228);
