@@ -52,7 +52,7 @@ body{
 
 /*Över här bestämmer jag var vad ska finnas i min grid*/
 
-.img{
+img{
   padding: 20px;
   padding-right: initial; 
   margin-right: 10%;
@@ -87,7 +87,7 @@ ul.navigation > li {
 }
 /*Här i denna child selectorn ändrar jag på mina listor utan att jag skriver flera rader*/
 
-.lista{
+li{
   display: inline;
   margin-right: 20px;
   margin-top: 10px;
@@ -256,7 +256,7 @@ a:active {
     "footer";
   }
 
-  .lista{
+  li{
     display: block;
   }
 
